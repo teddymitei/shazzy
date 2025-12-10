@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharon Mumbi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4a7345eb06.js" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Biomedical Engineer</p>
+                <h1>Hi, I'm <span>Sharon</span><br>Mumbi From Kenya</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate Biomedical Engineer dedicated to ensuring medical devices are safe,
+reliable, and optimized for quality patient care. My interests lie in clinical engineering,
+hospital equipmen management, medical imaging systems, and the integration of modern
+healthcare technologies.Additionally,i have hands-on experience in preventive and corrective maintenance of medical devices,
+troubleshooting electronic systems, performing equipment safety checks, and supporting
+clinical teams to minimize equipment downtime. My technical strengths cover diagnostic
+equipment, patient monitoring tools, and general biomedical instrumentation.I'm driven by purpose, precision, and impact. Every device I work on represents a life that
+can be saved, improved, or protected</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Clinical Engineering</span><br> Preventive & Corrective Maintenance of Medical Equipment</li>
+                            <li><span>Biomedical Instrumentation</span><br> Diagnostics, Monitoring & Therapeutic Equipment</li>
+                            <li><span>Electrical and Electronics skills</span><br> Troubleshooting, Soldering, Circuit Analysis</li>
+                            <li><span>Medical Equipment Safety</span><br> Calibration, Performance Testing, Risk Management</li>
+                            <li><span>Technical IT Support</span><br> Basic Networking, System Repair</li>
+                    
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Industrial Attachment</span><br>Industrial attachment at Outspan Teaching and Referral Hospital </li>
+                            <li><span>2025 - Clinical Attachment</span><br>Clinical attachment at Outspan Teaching and Referral Hospital</li>
+                            <li><span>2025 - Internship</span><br>Internship at Outspan Teachind and Referral Hospital</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025 Dec</span><br>Diploma in Medical Engineering Technology - KMTC</li>
+                            <li><span>2024 Dec</span><br>Additional skills: Soft skills, First Aid</li>
+                            <li><span>Ongoing</span><br>Driving, Web development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-heartbeat"></i>
+                    <h2>Medical Equipment Safety</h2>
+                    <p>Preventive and corrective maintenance of biomedical devices to ensure reliability, accuracy, and safety in clinical environments</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='fa fa-hospital-o'></i>
+                    <h2>Clinical Equipment Safety</h2>
+                    <p>I specialize in; Equipment testing, calibration, performance checks, and safety assurance for hospital and laboratory devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h2>Tech Support</h2>
+                    <p> I specialize in Electronics repair and device setup for healthcare environments</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pulse.jpeg">
+                    <div class="layer">
+                        <h3>GSM based pulse oximeter</h3>
+                        <p>A project integrating mobile technology with oxygen saturation and heart rate monitoring for remote patient tracking.</p>
+                        <a href="https://github.com/sharonmumbi/AI-CHATBOT"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/medical.jpeg">
+                    <div class="layer">
+                        <h3>Medical Equipment Inventory System</h3>
+                        <p>A simple digital management system for tracking hospital devices, maintenance schedules, and equipment history.</p>
+                        <a href="https://github.com/sharonmumbi/OnlineProdReview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/clinical.jpeg">
+                    <div class="layer">
+                        <h3>Clinical Safety Assessment</h3>
+                        <p>A documentation and analysis project focusing on safety checks, risk factors, and compliance standards for medical equipment.</p>
+                        <a href="https://redstore2000.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/shazzy-mumbi" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shazzymumbi06@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+254769128717</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/shazzy-mumbi"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sharon-mumbi-/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/_.mumbii_/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            // Remove "active" class from all tab links
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            // Remove "active" class from all tab contents
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            // Add "active" class to the selected tab link
+            document.getElementById(tabname).classList.add("active-link");
+            // Add "active" class to the corresponding tab content
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw3lWDPYgWbP9-ESlIRj-bD1LY3ogNNPQUStvqmhgfF4_ninPT5q0QUYJW3Fzdm4lXV/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
